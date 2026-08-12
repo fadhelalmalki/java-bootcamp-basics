@@ -86,8 +86,7 @@ public class Main {
         String keyword = scanner.nextLine();
 
         boolean isPresent = inputSentence.contains(keyword);
-        System.out.println(isPresent ? "Keyword \"" + keyword + "\" is present in the sentence." : "Keyword \"" + keyword + "\" is not present in the sentence.");
-
+        System.out.print("Is \"" + keyword + "\" present in the sentence? " + isPresent);
         System.out.println("#####################################");
 
         // Q7: To replace a word in any sentence
